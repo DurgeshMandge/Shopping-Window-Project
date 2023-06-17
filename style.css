@@ -1,0 +1,103 @@
+/* .container {
+    margin: 0 auto;
+    padding: 20px;
+  } */
+  
+  .navOpt{
+    padding-top: 2%;
+    text-align: center;
+  }
+
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 2%;
+  }
+  
+  .search-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+  }
+  
+  .search-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .card-list {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr)); /* Display four columns */
+    grid-gap: 20px;
+  }
+  
+  .card {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .cloth-card-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .cloth-card-title {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .cloth-card-price {
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+  
+  .cloth-card-desc{
+    font-size: 14px;
+    margin-bottom: 2px;
+    line-height: 17px;
+  }
+  
+  .cloth-card-color {
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+  .cloth-card {
+    /* display: grid; */
+    grid-template-columns: repeat(4, 1fr); /* Display four columns */
+    /* grid-gap: 20px; */
+  }
+  
+  
+  
+  @media (max-width: 450px) {
+    .card-list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* Display four columns */
+        grid-gap: 20px;
+      }
+  }
+  
+  @media (min-width: 450px) and (max-width: 900px) {
+    .card-list {
+      grid-template-columns: repeat(2, 1fr); /* Display two columns */
+    }
+  }
+  
+  @media (min-width: 900px) and (max-width: 1200px) {
+    .card-list {
+      grid-template-columns: repeat(3, 1fr); /* Display two columns */
+    }
+  }
+  
