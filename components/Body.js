@@ -1,11 +1,9 @@
-import Canteen from "./Canteen";
-import Cloths from "./Cloths";
+import LandingPage from "./LandingPage";
 
 const Body = ()=>{
   return (
     <>
-      <Cloths />
-      <Canteen />
+      <LandingPage />
     </>
   );
 }

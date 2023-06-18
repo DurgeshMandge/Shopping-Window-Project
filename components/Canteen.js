@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import {RestList} from "../constants.js";
-import { imageURL } from "../constants.js";
+import { restImageURL } from "../constants.js";
 
 const Card = ({cloudinaryImageId,name,cuisines,city}) =>{
     return (
@@ -12,7 +12,7 @@ const Card = ({cloudinaryImageId,name,cuisines,city}) =>{
                     <h6 className="cloth-card-desc">{cuisines.join(", ")}</h6>
                 </div>
                 <div className="col-4">
-                    <img className="cloth-card-image" src= {imageURL + cloudinaryImageId} />
+                    <img className="cloth-card-image" src= {restImageURL + cloudinaryImageId} />
                 </div>
             </div>
         </div>

@@ -4,7 +4,7 @@ const Header2 =()=>{
     return (
         <>
     <div className="container">
-    <header className="d-flex flex-wrap justify-content-center py-3 mb-1 border-bottom">
+    <header className="d-flex align-items-center flex-wrap justify-content-center py-3 mb-1 border-bottom">
       <a href="/" className="d-flex align-items-center mb-1 mb-md-0 me-md-auto text-dark text-decoration-none">
         <img src={logoURL} alt="Shopify" />
         <span className="fs-4">Shopify</span>

@@ -10,8 +10,8 @@ const ClothCard = ({ name, color, price, desc, img }) => {
         <div className="col-8 info-section col">
           <h4 className="cloth-card-title">{name}</h4>
           <h5 className="cloth-card-price">{price}</h5>
-          <h6 className="cloth-card-desc">{desc}</h6>
           <h6 className="cloth-card-color">{color}</h6>
+          <h6 className="cloth-card-desc">{desc}</h6>
         </div>
         
         <div className="col-4 img-section col">

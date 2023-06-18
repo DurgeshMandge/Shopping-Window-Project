@@ -1,6 +1,8 @@
 export const logoURL = "https://tse1.mm.bing.net/th?id=OIP.AZkmckbQrW-r4bPZwLJ67AHaE7&pid=Api&rs=1&c=1&qlt=95&w=159&h=105";
 
-export const imageURL = "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/";
+export const restImageURL = "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/";
+
+export const arrowURL = "https://tse4.mm.bing.net/th?id=OIP.0Ekcj_rNNcUlKRBe5NLz5AHaHa&pid=Api&P=0&h=180";
 
 export const RestList = [
     {
@@ -990,3 +992,36 @@ export const shopItemsData = [
         }
         
   ];
+
+export const landingPageData = [
+  {
+    "name" : "Canteen",
+    "id":"564",
+    "availability" : "8 hotels are open",
+    "status" : "on"
+  },
+  {
+    "name" : "Clothes",
+    "id":"835",
+    "availability" : "16 shops are open",
+    "status" : "on"
+  },
+  {
+    "name" : "Theatre",
+    "id":"24",
+    "availability" : "3 shows are playing",
+    "status" : "on"
+  },
+  {
+    "name" : "Parking",
+    "id":"976",
+    "availability" : "28 slots are available",
+    "status" : "on"
+  },
+  {
+    "name" : "Gaming",
+    "id":"245",
+    "availability" : "all pc full",
+    "status" : "on"
+  }
+];
