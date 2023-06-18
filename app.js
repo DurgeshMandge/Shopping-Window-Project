@@ -7,6 +7,8 @@ import Canteen from "./components/Canteen";
 import Cloths from "./components/Cloths";
 import { ShimmerLoad } from "./components/Shimmer";
 import { createBrowserRouter, RouterProvider ,Outlet} from "react-router-dom";
+import About from "./components/About";
+import Contact from "./components/Contact";
 
 const AppLayout = ()=>{
     return (
@@ -27,6 +29,14 @@ const AppRout = createBrowserRouter([
         {
             path:"/",
             element:<Body />
+        },
+        {
+            path:"/about",
+            element:<About />
+        },
+        {
+          path:"/contact",
+          element:<Contact />,
         },
         {
             path:"/canteen",

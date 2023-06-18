@@ -12,7 +12,7 @@ const LandingPageComponent = ({name,availability,status})=>{
                 <img src={arrowURL} placeholder="img.jpg" className="landImg" />
             </div>
             <div className="col-10">
-                <h2><Link to={rout}>{name}</Link></h2>
+                <h2 title="click here"><Link to={rout} >{name}</Link></h2>
                 <h4>{availability}</h4>
                 <h6>{status}</h6> 
             </div>
