@@ -1,9 +1,11 @@
-import LandingPage from "./LandingPage";
+// import LandingPage from "./LandingPage";
+import Canteen from "./Canteen";
 
 const Body = ()=>{
   return (
     <>
-      <LandingPage />
+      {/* <LandingPage /> */}
+      <Canteen />
     </>
   );
 }

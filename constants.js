@@ -1025,3 +1025,8 @@ export const landingPageData = [
     "status" : "on"
   }
 ];
+
+const amazon = ["https://d2330pufzy0cvr.cloudfront.net/broadcast/826285eb-c815-4d3c-9e05-e5a732f56fa0.json"
+,"https://www.amazon.in/customer-preferences/api/flyout/xop-and-country?icpContent=icp&_=1687073925034"
+,"https://d2330pufzy0cvr.cloudfront.net/broadcast/826285eb-c815-4d3c-9e05-e5a732f56fa0.json",
+];
