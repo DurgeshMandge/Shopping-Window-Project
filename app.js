@@ -5,6 +5,7 @@ import Body from "./components/Body";
 import Footer from "./components/Footer";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Canteen from "./components/Canteen";
+import Cloths from "./components/Cloths";
 import { ShimmerLoad } from "./components/Shimmer";
 
 
@@ -27,6 +28,10 @@ const AppRout = createBrowserRouter([
     {
       path:"/canteen",
       element:<Canteen />,
+    },
+    {
+      path:"/cloths",
+      element:<Cloths />,
     }
   ]);
 

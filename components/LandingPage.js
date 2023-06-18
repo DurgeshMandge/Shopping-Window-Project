@@ -1,20 +1,18 @@
 import { landingPageData } from "../constants";
 import { arrowURL } from "../constants";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const LandingPageComponent = ({name,availability,status})=>{
+    const rout="/"+name;
     return (
-    <div className="container border-dark" 
-        onClick={()=>{
-            displayCompo(name);
-        }}
-        >
+    <div className="container border-dark">
         <div className="row align-items-center landImgComp">   
             <div className="col-2 ">
                 <img src={arrowURL} placeholder="img.jpg" className="landImg" />
             </div>
             <div className="col-10">
-                <h2>{name}</h2>
+                <h2><Link to={rout}>{name}</Link></h2>
                 <h4>{availability}</h4>
                 <h6>{status}</h6> 
             </div>

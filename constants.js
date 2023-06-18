@@ -1001,7 +1001,7 @@ export const landingPageData = [
     "status" : "on"
   },
   {
-    "name" : "Clothes",
+    "name" : "Cloths",
     "id":"835",
     "availability" : "16 shops are open",
     "status" : "on"
