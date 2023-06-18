@@ -3,6 +3,9 @@ import ReactDOM from "react-dom/client";
 import Header from "./components/Header";
 import Body from "./components/Body";
 import Footer from "./components/Footer";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Canteen from "./components/Canteen";
+import { ShimmerLoad } from "./components/Shimmer";
 
 
 const AppLayout = ()=>{
@@ -15,6 +18,19 @@ const AppLayout = ()=>{
     );
 }
 
+const AppRout = createBrowserRouter([
+    {
+      path:"/",
+      element:<AppLayout />,
+      errorElement:<ShimmerLoad />
+    },
+    {
+      path:"/canteen",
+      element:<Canteen />,
+    }
+  ]);
+
+  
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<AppLayout />)
+root.render(<RouterProvider router={AppRout} />)

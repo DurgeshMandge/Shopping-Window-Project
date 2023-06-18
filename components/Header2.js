@@ -7,7 +7,6 @@ const Header2 =()=>{
     <header className="d-flex align-items-center flex-wrap justify-content-center py-3 mb-1 border-bottom">
       <a href="/" className="d-flex align-items-center mb-1 mb-md-0 me-md-auto text-dark text-decoration-none">
         <img src={logoURL} alt="Shopify" />
-        <span className="fs-4">Shopify</span>
       </a>
 
       <ul className="nav nav-pills ">
