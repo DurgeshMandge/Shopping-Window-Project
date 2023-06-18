@@ -1,9 +1,14 @@
 import React from "react";
+import { useRouteError } from "react-router-dom";
 
 export const ShimmerLoad =()=>{
+    const err = useRouteError();
+    console.log(err);
+
     return (
     <div class="container text-center">
-        <span class="sr-only">Wait...</span>
+        <h1>{err?.status}</h1>
+        <h1>Route {err?.statusText}</h1>
         <div class="spinner-border" role="status"></div>
     </div>
     );
