@@ -25,10 +25,19 @@ const Canteen = () =>{
         return (Restaurent.filter((rest)=>rest.data.name.toLowerCase().includes(searchText.toLowerCase())));
     }
 
+    async function getSwiggyAPI(){
+        const data = await fetch();
+        const dataJSON = data.json();
+        console.log(dataJSON);
+    }
 
     const [searchText,setSearchText]=useState("");
     const [Restaurants,setRestList]=useState(RestList);
     const [filteredRestaurants,setFilteredRestList]=useState(RestList);
+
+    useEffect(()=>{
+        getSwiggyAPI()
+    },[]);
 
     return (
     <div className="container">
@@ -52,6 +61,7 @@ const Canteen = () =>{
                 >Search
             </button>
         </div>
+
         {/* Body */}
         <div className="card-list">                              
             {filteredRestaurants.map((rest)=>{
