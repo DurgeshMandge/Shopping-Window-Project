@@ -1706,7 +1706,7 @@ export const shopItemsData = [
 
 export const landingPageData = [
   {
-    "name" : "Jungle",
+    "name" : "Canteen",
     "id":"564",
     "availability" : "8 hotels are open",
     "status" : "on"
