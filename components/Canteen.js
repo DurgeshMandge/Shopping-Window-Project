@@ -26,7 +26,7 @@ const Canteen = () =>{
     }
 
     const [searchText,setSearchText]=useState("");
-    const [Restaurants,setRestList]=useState([]);
+    const [Restaurants,setRestList]=useState([RestList]);
     const [filteredRestaurants,setFilteredRestList]=useState(RestList);
 
     useEffect(()=>{
