@@ -4,39 +4,44 @@ export const restImageURL = "https://res.cloudinary.com/swiggy/image/upload/fl_l
 
 export const arrowURL = "https://tse4.mm.bing.net/th?id=OIP.0Ekcj_rNNcUlKRBe5NLz5AHaHa&pid=Api&P=0&h=180";
 
+export const swiggyAPI = "https://www.swiggy.com/dapi/restaurants/list/v5?lat=18.5602455&lng=73.8338196&page_type=DESKTOP_WEB_LISTING";
+
 export const RestList = [
     {
     "type": "restaurant",
     "data": {
     "type": "F",
-    "id": "636061",
-    "name": "Third Wave Coffee",
-    "uuid": "76f47e30-ee03-43a7-93df-abf8e274934e",
+    "id": "284808",
+    "name": "Starbucks Coffee",
+    "uuid": "3fd94022-2ed3-4df5-8801-bfb638858a68",
     "city": "6",
-    "area": "Balewadi",
-    "totalRatingsString": "100+ ratings",
-    "cloudinaryImageId": "0dca660dbdf2e04f9b861c4426ffd41e",
+    "area": "Aundh",
+    "totalRatingsString": "1000+ ratings",
+    "cloudinaryImageId": "4df3497f1460dfd1ecd8125222f6d362",
     "cuisines": [
+    "Beverages",
     "Cafe",
+    "Snacks",
     "Desserts",
-    "Beverages"
+    "Bakery",
+    "Ice Cream"
     ],
     "tags": [],
     "costForTwo": 40000,
     "costForTwoString": "₹400 FOR TWO",
-    "deliveryTime": 38,
-    "minDeliveryTime": 38,
-    "maxDeliveryTime": 38,
-    "slaString": "38 MINS",
-    "lastMileTravel": 8.300000190734863,
+    "deliveryTime": 22,
+    "minDeliveryTime": 22,
+    "maxDeliveryTime": 22,
+    "slaString": "22 MINS",
+    "lastMileTravel": 3.5999999046325684,
     "slugs": {
-    "restaurant": "third-wave-coffee-baner-baner",
+    "restaurant": "starbucks-coffee-centriole-mall-building-aundh",
     "city": "pune"
     },
     "cityState": "6",
-    "address": "UNIT NO 9, GR FLOOR, PANCHSHIL BUSINESS PARK, HIGH STREET BUILDING, SURVEY NO 20, BALEWADI VILLAGE, PUNE ,Aundh,Pune,Maharashtra-411045",
-    "locality": "Panchshil Business Park",
-    "parentId": 274773,
+    "address": "Centriole Mall building, Ground Floor, Show Room No.1-B, Near PNG Jewellers, ITI Road, Aundh 411007",
+    "locality": "ITI Road",
+    "parentId": 195515,
     "unserviceable": false,
     "veg": false,
     "select": false,
@@ -52,7 +57,7 @@ export const RestList = [
     "fees": [
     {
     "name": "distance",
-    "fee": 7700,
+    "fee": 3700,
     "message": ""
     },
     {
@@ -66,10 +71,10 @@ export const RestList = [
     "message": ""
     }
     ],
-    "totalFees": 7700,
+    "totalFees": 3700,
     "message": "",
     "title": "Delivery Charge",
-    "amount": "7700",
+    "amount": "3700",
     "icon": ""
     },
     "availability": {
@@ -81,20 +86,26 @@ export const RestList = [
     "rainMode": "NONE",
     "thirdPartyAddress": false,
     "thirdPartyVendor": "",
-    "adTrackingID": "cid=7075536~p=1~eid=00000188-af37-6078-1594-976a007a0112",
+    "adTrackingID": "cid=7048624~p=1~eid=00000188-d1ce-b49e-14f7-82cf005a0174",
     "badges": {
     "imageBased": [],
     "textBased": [],
     "textExtendedBadges": []
     },
-    "lastMileTravelString": "8.3 kms",
+    "lastMileTravelString": "3.5 kms",
     "hasSurge": false,
+    "aggregatedDiscountInfoV3": {
+    "header": "20% OFF",
+    "subHeader": "UPTO ₹50",
+    "discountTag": "",
+    "headerTypeV2": 0
+    },
     "sla": {
-    "restaurantId": "636061",
-    "deliveryTime": 38,
-    "minDeliveryTime": 38,
-    "maxDeliveryTime": 38,
-    "lastMileTravel": 8.300000190734863,
+    "restaurantId": "284808",
+    "deliveryTime": 22,
+    "minDeliveryTime": 22,
+    "maxDeliveryTime": 22,
+    "lastMileTravel": 3.5999999046325684,
     "lastMileDistance": 0,
     "serviceability": "SERVICEABLE",
     "rainMode": "NONE",
@@ -103,105 +114,7 @@ export const RestList = [
     "iconType": "EMPTY"
     },
     "promoted": true,
-    "avgRating": "4.2",
-    "totalRatings": 100,
-    "new": false
-    },
-    "subtype": "basic"
-    },
-    {
-    "type": "restaurant",
-    "data": {
-    "type": "F",
-    "id": "128170",
-    "name": "MM Restaurant",
-    "uuid": "4583be8e-280f-430d-b8c7-aeac31f12ea3",
-    "city": "6",
-    "area": "Khadki",
-    "totalRatingsString": "1000+ ratings",
-    "cloudinaryImageId": "kfjelbqggli8gykk4zxm",
-    "cuisines": [
-    "Indian",
-    "Chinese"
-    ],
-    "tags": [],
-    "costForTwo": 20000,
-    "costForTwoString": "₹200 FOR TWO",
-    "deliveryTime": 43,
-    "minDeliveryTime": 43,
-    "maxDeliveryTime": 43,
-    "slaString": "43 MINS",
-    "lastMileTravel": 0.800000011920929,
-    "slugs": {
-    "restaurant": "mm-restaurant-khadki-bopodi",
-    "city": "pune"
-    },
-    "cityState": "6",
-    "address": "Shop No 4/5 Snehal Memories, 49 aundh road, Khadki,Pune",
-    "locality": "Spicer College Road",
-    "parentId": 127043,
-    "unserviceable": false,
-    "veg": false,
-    "select": false,
-    "favorite": false,
-    "tradeCampaignHeaders": [],
-    "chain": [],
-    "feeDetails": {
-    "fees": [
-    {
-    "name": "distance",
-    "fee": 3000,
-    "message": ""
-    },
-    {
-    "name": "time",
-    "fee": 0,
-    "message": ""
-    },
-    {
-    "name": "special",
-    "fee": 0,
-    "message": ""
-    }
-    ],
-    "totalFees": 3000,
-    "message": "",
-    "title": "Delivery Charge",
-    "amount": "3000",
-    "icon": ""
-    },
-    "availability": {
-    "opened": true,
-    "nextOpenMessage": "",
-    "nextCloseMessage": ""
-    },
-    "longDistanceEnabled": 0,
-    "rainMode": "NONE",
-    "thirdPartyAddress": false,
-    "thirdPartyVendor": "",
-    "adTrackingID": "",
-    "badges": {
-    "imageBased": [],
-    "textBased": [],
-    "textExtendedBadges": []
-    },
-    "lastMileTravelString": "0.8 kms",
-    "hasSurge": false,
-    "sla": {
-    "restaurantId": "128170",
-    "deliveryTime": 43,
-    "minDeliveryTime": 43,
-    "maxDeliveryTime": 43,
-    "lastMileTravel": 0.800000011920929,
-    "lastMileDistance": 0,
-    "serviceability": "SERVICEABLE",
-    "rainMode": "NONE",
-    "longDistance": "NOT_LONG_DISTANCE",
-    "preferentialService": false,
-    "iconType": "EMPTY"
-    },
-    "promoted": false,
-    "avgRating": "4.0",
+    "avgRating": "4.4",
     "totalRatings": 1000,
     "new": false
     },
@@ -211,249 +124,32 @@ export const RestList = [
     "type": "restaurant",
     "data": {
     "type": "F",
-    "id": "568673",
-    "name": "New Aaoji Khaoji",
-    "uuid": "0d9856e8-12c0-4a9c-86ba-d09989e46779",
+    "id": "676584",
+    "name": "Desilicious-All Day Resturant",
+    "uuid": "b1d37e54-02bf-43cc-b312-82e168165826",
     "city": "6",
-    "area": "Sangvi",
-    "totalRatingsString": "100+ ratings",
-    "cloudinaryImageId": "tdeakbydfcemwgj4dyvx",
-    "cuisines": [
-    "Indian",
-    "North Indian",
-    "Thalis"
-    ],
-    "tags": [],
-    "costForTwo": 80000,
-    "costForTwoString": "₹800 FOR TWO",
-    "deliveryTime": 37,
-    "minDeliveryTime": 37,
-    "maxDeliveryTime": 37,
-    "slaString": "37 MINS",
-    "lastMileTravel": 0.800000011920929,
-    "slugs": {
-    "restaurant": "new-aaoji-khaoji-sangvi-sangvi",
-    "city": "pune"
-    },
-    "cityState": "6",
-    "address": "Shop 1 and 2, Raghukul Nagari, Opposite Patil Complex Ambedkar Chowk, Aundh Rd, Anand Nagar, Bopodi, Pune, Maharashtra 411020, India",
-    "locality": "Anand Nagar",
-    "parentId": 341492,
-    "unserviceable": false,
-    "veg": false,
-    "select": false,
-    "favorite": false,
-    "tradeCampaignHeaders": [],
-    "chain": [],
-    "feeDetails": {
-    "fees": [
-    {
-    "name": "distance",
-    "fee": 3000,
-    "message": ""
-    },
-    {
-    "name": "time",
-    "fee": 0,
-    "message": ""
-    },
-    {
-    "name": "special",
-    "fee": 0,
-    "message": ""
-    }
-    ],
-    "totalFees": 3000,
-    "message": "",
-    "title": "Delivery Charge",
-    "amount": "3000",
-    "icon": ""
-    },
-    "availability": {
-    "opened": true,
-    "nextOpenMessage": "",
-    "nextCloseMessage": ""
-    },
-    "longDistanceEnabled": 0,
-    "rainMode": "NONE",
-    "thirdPartyAddress": false,
-    "thirdPartyVendor": "",
-    "adTrackingID": "",
-    "badges": {
-    "imageBased": [],
-    "textBased": [],
-    "textExtendedBadges": []
-    },
-    "lastMileTravelString": "0.8 kms",
-    "hasSurge": false,
-    "aggregatedDiscountInfoV3": {
-    "header": "25% OFF",
-    "subHeader": "UPTO ₹65",
-    "discountTag": "",
-    "headerTypeV2": 0
-    },
-    "sla": {
-    "restaurantId": "568673",
-    "deliveryTime": 37,
-    "minDeliveryTime": 37,
-    "maxDeliveryTime": 37,
-    "lastMileTravel": 0.800000011920929,
-    "lastMileDistance": 0,
-    "serviceability": "SERVICEABLE",
-    "rainMode": "NONE",
-    "longDistance": "NOT_LONG_DISTANCE",
-    "preferentialService": false,
-    "iconType": "EMPTY"
-    },
-    "promoted": false,
-    "avgRating": "4.3",
-    "totalRatings": 100,
-    "new": false
-    },
-    "subtype": "basic"
-    },
-    {
-    "type": "restaurant",
-    "data": {
-    "type": "F",
-    "id": "16061",
-    "name": "KFC",
-    "uuid": "e02f2722-656a-444e-97ac-ceae2b4b42ec",
-    "city": "6",
-    "area": "Pimple Saudagar",
-    "totalRatingsString": "10000+ ratings",
-    "cloudinaryImageId": "56c9ab92bd79745fd152a30fa2525426",
-    "cuisines": [
-    "Burgers",
-    "Biryani",
-    "American",
-    "Snacks",
-    "Fast Food"
-    ],
-    "tags": [],
-    "costForTwo": 40000,
-    "costForTwoString": "₹400 FOR TWO",
-    "deliveryTime": 31,
-    "minDeliveryTime": 31,
-    "maxDeliveryTime": 31,
-    "slaString": "31 MINS",
-    "lastMileTravel": 7.900000095367432,
-    "slugs": {
-    "restaurant": "kfc-spot-18-mall-pimple-saudagar",
-    "city": "pune"
-    },
-    "cityState": "6",
-    "address": "Spot 18 Mall, Pimple Saudagar, Pune",
-    "locality": "Spot 18 Mall",
-    "parentId": 547,
-    "unserviceable": false,
-    "veg": false,
-    "select": false,
-    "favorite": false,
-    "tradeCampaignHeaders": [],
-    "ribbon": [
-    {
-    "type": "PROMOTED"
-    }
-    ],
-    "chain": [],
-    "feeDetails": {
-    "fees": [
-    {
-    "name": "distance",
-    "fee": 6200,
-    "message": ""
-    },
-    {
-    "name": "time",
-    "fee": 0,
-    "message": ""
-    },
-    {
-    "name": "special",
-    "fee": 0,
-    "message": ""
-    }
-    ],
-    "totalFees": 6200,
-    "message": "",
-    "title": "Delivery Charge",
-    "amount": "6200",
-    "icon": ""
-    },
-    "availability": {
-    "opened": true,
-    "nextOpenMessage": "",
-    "nextCloseMessage": ""
-    },
-    "longDistanceEnabled": 0,
-    "rainMode": "NONE",
-    "thirdPartyAddress": false,
-    "thirdPartyVendor": "",
-    "adTrackingID": "cid=7020735~p=4~eid=00000188-af37-6078-1594-976b007a045f",
-    "badges": {
-    "imageBased": [],
-    "textBased": [],
-    "textExtendedBadges": []
-    },
-    "lastMileTravelString": "7.9 kms",
-    "hasSurge": false,
-    "aggregatedDiscountInfoV3": {
-    "header": "20% OFF",
-    "subHeader": "UPTO ₹50",
-    "discountTag": "",
-    "headerTypeV2": 0
-    },
-    "sla": {
-    "restaurantId": "16061",
-    "deliveryTime": 31,
-    "minDeliveryTime": 31,
-    "maxDeliveryTime": 31,
-    "lastMileTravel": 7.900000095367432,
-    "lastMileDistance": 0,
-    "serviceability": "SERVICEABLE",
-    "rainMode": "NONE",
-    "longDistance": "NOT_LONG_DISTANCE",
-    "preferentialService": false,
-    "iconType": "EMPTY"
-    },
-    "promoted": true,
-    "avgRating": "3.9",
-    "totalRatings": 10000,
-    "new": false
-    },
-    "subtype": "basic"
-    },
-    {
-    "type": "restaurant",
-    "data": {
-    "type": "F",
-    "id": "632286",
-    "name": "Kiosk Kaffee",
-    "uuid": "b5977239-2368-40d4-8dc2-7a29347cf1b0",
-    "city": "6",
-    "area": "Sangvi",
+    "area": "Shivaji Nagar",
     "totalRatingsString": "Too Few Ratings",
-    "cloudinaryImageId": "58340d263aa07262f1eac0c9099a365c",
+    "cloudinaryImageId": "46c3122b71b64adf8e3a69f5b1a620e9",
     "cuisines": [
-    "Beverages"
+    "Indian"
     ],
     "tags": [],
-    "costForTwo": 20000,
-    "costForTwoString": "₹200 FOR TWO",
-    "deliveryTime": 46,
-    "minDeliveryTime": 46,
-    "maxDeliveryTime": 46,
-    "slaString": "46 MINS",
-    "lastMileTravel": 0.8999999761581421,
+    "costForTwo": 60000,
+    "costForTwoString": "₹600 FOR TWO",
+    "deliveryTime": 24,
+    "minDeliveryTime": 24,
+    "maxDeliveryTime": 24,
+    "slaString": "24 MINS",
+    "lastMileTravel": 1.7999999523162842,
     "slugs": {
-    "restaurant": "koffee-cafe-sangvi-sangvi",
+    "restaurant": "desilicious-all-day-resturant-shivaji-nagar-shivaji-nagar",
     "city": "pune"
     },
     "cityState": "6",
-    "address": "SHOP NO 4,ASIAD SOCIETY NEAR GANPATI MANDIR,AUNDH ROAD KHADKI PUNE, PUNE CITY,411020,KHADKI CANTONMENT BOARD,PUNE, Maharashtra-411020",
-    "locality": "Aundh Road",
-    "parentId": 118722,
+    "address": "Ashok Sankul, Range Hill Rd, Bhoslenagar, Ashok Nagar, Pune, Maharashtra 411020, India",
+    "locality": "Ashok Nagar",
+    "parentId": 404515,
     "unserviceable": false,
     "veg": false,
     "select": false,
@@ -464,7 +160,7 @@ export const RestList = [
     "fees": [
     {
     "name": "distance",
-    "fee": 3000,
+    "fee": 3100,
     "message": ""
     },
     {
@@ -478,10 +174,10 @@ export const RestList = [
     "message": ""
     }
     ],
-    "totalFees": 3000,
+    "totalFees": 3100,
     "message": "",
     "title": "Delivery Charge",
-    "amount": "3000",
+    "amount": "3100",
     "icon": ""
     },
     "availability": {
@@ -499,14 +195,20 @@ export const RestList = [
     "textBased": [],
     "textExtendedBadges": []
     },
-    "lastMileTravelString": "0.8 kms",
+    "lastMileTravelString": "1.7 kms",
     "hasSurge": false,
+    "aggregatedDiscountInfoV3": {
+    "header": "30% OFF",
+    "subHeader": "ABOVE ₹159",
+    "discountTag": "FLAT DEAL",
+    "headerTypeV2": 0
+    },
     "sla": {
-    "restaurantId": "632286",
-    "deliveryTime": 46,
-    "minDeliveryTime": 46,
-    "maxDeliveryTime": 46,
-    "lastMileTravel": 0.8999999761581421,
+    "restaurantId": "676584",
+    "deliveryTime": 24,
+    "minDeliveryTime": 24,
+    "maxDeliveryTime": 24,
+    "lastMileTravel": 1.7999999523162842,
     "lastMileDistance": 0,
     "serviceability": "SERVICEABLE",
     "rainMode": "NONE",
@@ -525,33 +227,32 @@ export const RestList = [
     "type": "restaurant",
     "data": {
     "type": "F",
-    "id": "26122",
-    "name": "Saathee Restaurant & Bar",
-    "uuid": "312dd76b-703d-4a08-bb34-b74f8a752d6a",
+    "id": "491724",
+    "name": "Sudamache Pohe",
+    "uuid": "881be095-589b-4291-b555-5238a205219a",
     "city": "6",
     "area": "Aundh",
-    "totalRatingsString": "1000+ ratings",
-    "cloudinaryImageId": "aq1pw6lsoetkjbnmcu1k",
+    "totalRatingsString": "100+ ratings",
+    "cloudinaryImageId": "i5itucpar1mnrjlhj4dv",
     "cuisines": [
-    "North Indian",
-    "Chinese"
+    "Snacks"
     ],
     "tags": [],
-    "costForTwo": 20000,
-    "costForTwoString": "₹200 FOR TWO",
-    "deliveryTime": 32,
-    "minDeliveryTime": 32,
-    "maxDeliveryTime": 32,
-    "slaString": "32 MINS",
-    "lastMileTravel": 0.800000011920929,
+    "costForTwo": 10000,
+    "costForTwoString": "₹100 FOR TWO",
+    "deliveryTime": 21,
+    "minDeliveryTime": 21,
+    "maxDeliveryTime": 21,
+    "slaString": "21 MINS",
+    "lastMileTravel": 3,
     "slugs": {
-    "restaurant": "saathee-restaurant-bar-pune-university-aundh",
+    "restaurant": "sudamache-pohe-aundh-aundh",
     "city": "pune"
     },
     "cityState": "6",
-    "address": "5/2, Opposite Ganesh Temple, Pune University, Pune Behind Pune University",
-    "locality": "Spicer College Road",
-    "parentId": 173914,
+    "address": "S NO. 1A/1/13/2, SHOP NO. 3, GROUND FL OOR, DHANSHREE APARTMENT, AUNDH GAON, PUNE, Aundh, Pune, Maharashtra - 411007",
+    "locality": "Aundh Gaon",
+    "parentId": 295167,
     "unserviceable": false,
     "veg": false,
     "select": false,
@@ -562,7 +263,7 @@ export const RestList = [
     "fees": [
     {
     "name": "distance",
-    "fee": 3000,
+    "fee": 3700,
     "message": ""
     },
     {
@@ -576,10 +277,10 @@ export const RestList = [
     "message": ""
     }
     ],
-    "totalFees": 3000,
+    "totalFees": 3700,
     "message": "",
     "title": "Delivery Charge",
-    "amount": "3000",
+    "amount": "3700",
     "icon": ""
     },
     "availability": {
@@ -597,20 +298,14 @@ export const RestList = [
     "textBased": [],
     "textExtendedBadges": []
     },
-    "lastMileTravelString": "0.8 kms",
+    "lastMileTravelString": "3 kms",
     "hasSurge": false,
-    "aggregatedDiscountInfoV3": {
-    "header": "10% OFF",
-    "subHeader": "UPTO ₹40",
-    "discountTag": "",
-    "headerTypeV2": 0
-    },
     "sla": {
-    "restaurantId": "26122",
-    "deliveryTime": 32,
-    "minDeliveryTime": 32,
-    "maxDeliveryTime": 32,
-    "lastMileTravel": 0.800000011920929,
+    "restaurantId": "491724",
+    "deliveryTime": 21,
+    "minDeliveryTime": 21,
+    "maxDeliveryTime": 21,
+    "lastMileTravel": 3,
     "lastMileDistance": 0,
     "serviceability": "SERVICEABLE",
     "rainMode": "NONE",
@@ -619,8 +314,8 @@ export const RestList = [
     "iconType": "EMPTY"
     },
     "promoted": false,
-    "avgRating": "4.3",
-    "totalRatings": 1000,
+    "avgRating": "4.4",
+    "totalRatings": 100,
     "new": false
     },
     "subtype": "basic"
@@ -629,47 +324,35 @@ export const RestList = [
     "type": "restaurant",
     "data": {
     "type": "F",
-    "id": "292517",
-    "name": "Chai Point",
-    "uuid": "941f2a71-a60a-4a6f-84e2-5219b80284d6",
+    "id": "50641",
+    "name": "Way Down South Restaurant",
+    "uuid": "c68e647b-000a-4f51-a0f8-63afb78eb3f6",
     "city": "6",
     "area": "Baner",
-    "totalRatingsString": "5000+ ratings",
-    "cloudinaryImageId": "ewhrfspfrhqebt5xjawq",
+    "totalRatingsString": "10000+ ratings",
+    "cloudinaryImageId": "w1ohpwx147qcgsn4whb3",
     "cuisines": [
-    "Bakery",
-    "Beverages",
-    "Maharashtrian",
-    "Snacks",
-    "Street Food",
     "South Indian",
-    "Punjabi",
-    "Chaat",
-    "Indian",
-    "American",
     "North Indian",
-    "Fast Food",
-    "Desserts",
-    "Cafe",
-    "Healthy Food",
-    "Home Food"
+    "Thalis",
+    "Beverages"
     ],
     "tags": [],
-    "costForTwo": 15000,
-    "costForTwoString": "₹150 FOR TWO",
-    "deliveryTime": 38,
-    "minDeliveryTime": 38,
-    "maxDeliveryTime": 38,
-    "slaString": "38 MINS",
-    "lastMileTravel": 6.099999904632568,
+    "costForTwo": 25000,
+    "costForTwoString": "₹250 FOR TWO",
+    "deliveryTime": 37,
+    "minDeliveryTime": 37,
+    "maxDeliveryTime": 37,
+    "slaString": "37 MINS",
+    "lastMileTravel": 7.800000190734863,
     "slugs": {
-    "restaurant": "chai-point-baner-baner",
+    "restaurant": "way-down-south-restaurant-baner-baner",
     "city": "pune"
     },
     "cityState": "6",
-    "address": "Chai Point ,Sai Empire ,Near ICICI Bank Baner ,Pune ,Maharashtra 411045",
-    "locality": "Baner Road",
-    "parentId": 1607,
+    "address": "Sai Krupa Apartments, Near D Mart, Mhalunge Baner, Baner, Pune",
+    "locality": "Baner",
+    "parentId": 225420,
     "unserviceable": false,
     "veg": false,
     "select": false,
@@ -685,7 +368,7 @@ export const RestList = [
     "fees": [
     {
     "name": "distance",
-    "fee": 5600,
+    "fee": 6100,
     "message": ""
     },
     {
@@ -699,10 +382,10 @@ export const RestList = [
     "message": ""
     }
     ],
-    "totalFees": 5600,
+    "totalFees": 6100,
     "message": "",
     "title": "Delivery Charge",
-    "amount": "5600",
+    "amount": "6100",
     "icon": ""
     },
     "availability": {
@@ -714,26 +397,26 @@ export const RestList = [
     "rainMode": "NONE",
     "thirdPartyAddress": false,
     "thirdPartyVendor": "",
-    "adTrackingID": "cid=7001459~p=7~eid=00000188-af37-6078-1594-976c007a0726",
+    "adTrackingID": "cid=6937179~p=4~eid=00000188-d1ce-b49e-14f7-82d0005a0415",
     "badges": {
     "imageBased": [],
     "textBased": [],
     "textExtendedBadges": []
     },
-    "lastMileTravelString": "6 kms",
+    "lastMileTravelString": "7.8 kms",
     "hasSurge": false,
     "aggregatedDiscountInfoV3": {
-    "header": "40% OFF",
-    "subHeader": "UPTO ₹80",
+    "header": "20% OFF",
+    "subHeader": "UPTO ₹50",
     "discountTag": "",
     "headerTypeV2": 0
     },
     "sla": {
-    "restaurantId": "292517",
-    "deliveryTime": 38,
-    "minDeliveryTime": 38,
-    "maxDeliveryTime": 38,
-    "lastMileTravel": 6.099999904632568,
+    "restaurantId": "50641",
+    "deliveryTime": 37,
+    "minDeliveryTime": 37,
+    "maxDeliveryTime": 37,
+    "lastMileTravel": 7.800000190734863,
     "lastMileDistance": 0,
     "serviceability": "SERVICEABLE",
     "rainMode": "NONE",
@@ -742,8 +425,8 @@ export const RestList = [
     "iconType": "EMPTY"
     },
     "promoted": true,
-    "avgRating": "4.3",
-    "totalRatings": 5000,
+    "avgRating": "4.2",
+    "totalRatings": 10000,
     "new": false
     },
     "subtype": "basic"
@@ -752,37 +435,36 @@ export const RestList = [
     "type": "restaurant",
     "data": {
     "type": "F",
-    "id": "25833",
-    "name": "Fish N Rolls",
-    "uuid": "2fe2c57f-4523-498a-9dfb-30bbb01abaa8",
+    "id": "526937",
+    "name": "New Sagar Hotel, Khadki",
+    "uuid": "4eaefec4-c83f-4a83-ad3b-5cac77384383",
     "city": "6",
     "area": "Khadki",
-    "totalRatingsString": "1000+ ratings",
-    "cloudinaryImageId": "z6mlgrihs7ccgoulzcw2",
+    "totalRatingsString": "20+ ratings",
+    "cloudinaryImageId": "cxa9ns9jfj6ssbsduy0r",
     "cuisines": [
-    "Indian",
     "Snacks",
-    "Continental",
-    "Beverages"
+    "South Indian",
+    "Sweets"
     ],
     "tags": [],
-    "costForTwo": 25000,
-    "costForTwoString": "₹250 FOR TWO",
-    "deliveryTime": 39,
-    "minDeliveryTime": 39,
-    "maxDeliveryTime": 39,
-    "slaString": "39 MINS",
-    "lastMileTravel": 0.699999988079071,
+    "costForTwo": 10000,
+    "costForTwoString": "₹100 FOR TWO",
+    "deliveryTime": 25,
+    "minDeliveryTime": 25,
+    "maxDeliveryTime": 25,
+    "slaString": "25 MINS",
+    "lastMileTravel": 3,
     "slugs": {
-    "restaurant": "fish-n-rolls-aundh-aundh",
+    "restaurant": "new-sagar-hotel,-khadki-sangvi-sangvi",
     "city": "pune"
     },
     "cityState": "6",
-    "address": "Shop 11, Raviraj Heritage, Bahupatil Road, Khadki, Pune",
-    "locality": "Bahupatil Road",
-    "parentId": 79816,
+    "address": "76,new bazar, Khadki Bazar, Khadki, Pune, Maharashtra 411003, India",
+    "locality": "Maulodina Marg",
+    "parentId": 317427,
     "unserviceable": false,
-    "veg": false,
+    "veg": true,
     "select": false,
     "favorite": false,
     "tradeCampaignHeaders": [],
@@ -791,7 +473,7 @@ export const RestList = [
     "fees": [
     {
     "name": "distance",
-    "fee": 3000,
+    "fee": 3700,
     "message": ""
     },
     {
@@ -805,10 +487,10 @@ export const RestList = [
     "message": ""
     }
     ],
-    "totalFees": 3000,
+    "totalFees": 3700,
     "message": "",
     "title": "Delivery Charge",
-    "amount": "3000",
+    "amount": "3700",
     "icon": ""
     },
     "availability": {
@@ -826,7 +508,525 @@ export const RestList = [
     "textBased": [],
     "textExtendedBadges": []
     },
-    "lastMileTravelString": "0.6 kms",
+    "lastMileTravelString": "3 kms",
+    "hasSurge": false,
+    "sla": {
+    "restaurantId": "526937",
+    "deliveryTime": 25,
+    "minDeliveryTime": 25,
+    "maxDeliveryTime": 25,
+    "lastMileTravel": 3,
+    "lastMileDistance": 0,
+    "serviceability": "SERVICEABLE",
+    "rainMode": "NONE",
+    "longDistance": "NOT_LONG_DISTANCE",
+    "preferentialService": false,
+    "iconType": "EMPTY"
+    },
+    "promoted": false,
+    "avgRating": "4.4",
+    "totalRatings": 20,
+    "new": false
+    },
+    "subtype": "basic"
+    },
+    {
+    "type": "restaurant",
+    "data": {
+    "type": "F",
+    "id": "723610",
+    "name": "Wrap Griller'S",
+    "uuid": "d3ec13ae-d93f-43de-ad52-f76b8e3e1812",
+    "city": "6",
+    "area": "Sangvi",
+    "totalRatingsString": "Too Few Ratings",
+    "cloudinaryImageId": "ac3eed68b66afa07d7761054048a00e7",
+    "cuisines": [
+    "Snacks",
+    "Chinese"
+    ],
+    "tags": [],
+    "costForTwo": 25000,
+    "costForTwoString": "₹250 FOR TWO",
+    "deliveryTime": 32,
+    "minDeliveryTime": 32,
+    "maxDeliveryTime": 32,
+    "slaString": "32 MINS",
+    "lastMileTravel": 2.200000047683716,
+    "slugs": {
+    "restaurant": "wrap-griller's-sangvi-sangvi",
+    "city": "pune"
+    },
+    "cityState": "6",
+    "address": "Aba Kate Nagar, Dapodi, Pimpri-Chinchwad, Maharashtra 411012, India",
+    "locality": "Dapodi",
+    "parentId": 430694,
+    "unserviceable": false,
+    "veg": false,
+    "select": false,
+    "favorite": false,
+    "tradeCampaignHeaders": [],
+    "chain": [],
+    "feeDetails": {
+    "fees": [
+    {
+    "name": "distance",
+    "fee": 3100,
+    "message": ""
+    },
+    {
+    "name": "time",
+    "fee": 0,
+    "message": ""
+    },
+    {
+    "name": "special",
+    "fee": 0,
+    "message": ""
+    }
+    ],
+    "totalFees": 3100,
+    "message": "",
+    "title": "Delivery Charge",
+    "amount": "3100",
+    "icon": ""
+    },
+    "availability": {
+    "opened": true,
+    "nextOpenMessage": "",
+    "nextCloseMessage": "Closes soon"
+    },
+    "longDistanceEnabled": 0,
+    "rainMode": "NONE",
+    "thirdPartyAddress": false,
+    "thirdPartyVendor": "",
+    "adTrackingID": "",
+    "badges": {
+    "imageBased": [],
+    "textBased": [],
+    "textExtendedBadges": []
+    },
+    "lastMileTravelString": "2.2 kms",
+    "hasSurge": false,
+    "sla": {
+    "restaurantId": "723610",
+    "deliveryTime": 32,
+    "minDeliveryTime": 32,
+    "maxDeliveryTime": 32,
+    "lastMileTravel": 2.200000047683716,
+    "lastMileDistance": 0,
+    "serviceability": "SERVICEABLE",
+    "rainMode": "NONE",
+    "longDistance": "NOT_LONG_DISTANCE",
+    "preferentialService": false,
+    "iconType": "EMPTY"
+    },
+    "promoted": false,
+    "avgRating": "--",
+    "totalRatings": 0,
+    "new": true
+    },
+    "subtype": "basic"
+    },
+    {
+    "type": "restaurant",
+    "data": {
+    "type": "F",
+    "id": "4293",
+    "name": "Sandwich Express",
+    "uuid": "a3760f88-7499-41f1-be12-594b296f86c3",
+    "city": "6",
+    "area": "Aundh",
+    "totalRatingsString": "10000+ ratings",
+    "cloudinaryImageId": "hyo9rrztwwgaiaxe40ox",
+    "cuisines": [
+    "Street Food",
+    "Beverages",
+    "Snacks"
+    ],
+    "tags": [],
+    "costForTwo": 30000,
+    "costForTwoString": "₹300 FOR TWO",
+    "deliveryTime": 28,
+    "minDeliveryTime": 28,
+    "maxDeliveryTime": 28,
+    "slaString": "28 MINS",
+    "lastMileTravel": 4.400000095367432,
+    "slugs": {
+    "restaurant": "sandwich-express-aundh",
+    "city": "pune"
+    },
+    "cityState": "6",
+    "address": "Sai heritage shop no B-5 near medipoint hospital aloma counting Road aundh 411007",
+    "locality": "Counting Road",
+    "parentId": 801,
+    "unserviceable": false,
+    "veg": false,
+    "select": false,
+    "favorite": false,
+    "tradeCampaignHeaders": [],
+    "ribbon": [
+    {
+    "type": "PROMOTED"
+    }
+    ],
+    "chain": [],
+    "feeDetails": {
+    "fees": [
+    {
+    "name": "distance",
+    "fee": 4300,
+    "message": ""
+    },
+    {
+    "name": "time",
+    "fee": 0,
+    "message": ""
+    },
+    {
+    "name": "special",
+    "fee": 0,
+    "message": ""
+    }
+    ],
+    "totalFees": 4300,
+    "message": "",
+    "title": "Delivery Charge",
+    "amount": "4300",
+    "icon": ""
+    },
+    "availability": {
+    "opened": true,
+    "nextOpenMessage": "",
+    "nextCloseMessage": ""
+    },
+    "longDistanceEnabled": 0,
+    "rainMode": "NONE",
+    "thirdPartyAddress": false,
+    "thirdPartyVendor": "",
+    "adTrackingID": "cid=6994975~p=7~eid=00000188-d1ce-b49e-14f7-82d1005a076b",
+    "badges": {
+    "imageBased": [],
+    "textBased": [],
+    "textExtendedBadges": []
+    },
+    "lastMileTravelString": "4.4 kms",
+    "hasSurge": false,
+    "aggregatedDiscountInfoV3": {
+    "header": "₹75 OFF",
+    "subHeader": "ABOVE ₹199",
+    "discountTag": "FLAT DEAL",
+    "headerTypeV2": 0
+    },
+    "sla": {
+    "restaurantId": "4293",
+    "deliveryTime": 28,
+    "minDeliveryTime": 28,
+    "maxDeliveryTime": 28,
+    "lastMileTravel": 4.400000095367432,
+    "lastMileDistance": 0,
+    "serviceability": "SERVICEABLE",
+    "rainMode": "NONE",
+    "longDistance": "NOT_LONG_DISTANCE",
+    "preferentialService": false,
+    "iconType": "EMPTY"
+    },
+    "promoted": true,
+    "avgRating": "4.2",
+    "totalRatings": 10000,
+    "new": false
+    },
+    "subtype": "basic"
+    },
+    {
+    "type": "restaurant",
+    "data": {
+    "type": "F",
+    "id": "18800",
+    "name": "Faasos - Wraps & Rolls",
+    "uuid": "52e6878b-c3d6-4539-8ee3-3d0620c898b6",
+    "city": "6",
+    "area": "Sangvi",
+    "totalRatingsString": "5000+ ratings",
+    "cloudinaryImageId": "85c20ed30425350ac5ee96f10d5d1329",
+    "cuisines": [
+    "Kebabs",
+    "Fast Food",
+    "Snacks",
+    "North Indian",
+    "American",
+    "Healthy Food",
+    "Desserts",
+    "Beverages"
+    ],
+    "tags": [],
+    "costForTwo": 20000,
+    "costForTwoString": "₹200 FOR TWO",
+    "deliveryTime": 23,
+    "minDeliveryTime": 23,
+    "maxDeliveryTime": 23,
+    "slaString": "23 MINS",
+    "lastMileTravel": 3,
+    "slugs": {
+    "restaurant": "fassos-ashiyana-apartment-aundh",
+    "city": "pune"
+    },
+    "cityState": "6",
+    "address": "Ground Floor, No. 119, Sr. No. 12, Nrusingh Housing Society, Shiotole Nagar, Aanand Nagar, Sangvi, Pune, Maharashtra - 411027",
+    "locality": "Ashiyana Apartment",
+    "parentId": 21809,
+    "unserviceable": false,
+    "veg": false,
+    "select": false,
+    "favorite": false,
+    "tradeCampaignHeaders": [],
+    "chain": [],
+    "feeDetails": {
+    "fees": [
+    {
+    "name": "distance",
+    "fee": 3700,
+    "message": ""
+    },
+    {
+    "name": "time",
+    "fee": 0,
+    "message": ""
+    },
+    {
+    "name": "special",
+    "fee": 0,
+    "message": ""
+    }
+    ],
+    "totalFees": 3700,
+    "message": "",
+    "title": "Delivery Charge",
+    "amount": "3700",
+    "icon": ""
+    },
+    "availability": {
+    "opened": true,
+    "nextOpenMessage": "",
+    "nextCloseMessage": ""
+    },
+    "longDistanceEnabled": 0,
+    "rainMode": "NONE",
+    "thirdPartyAddress": false,
+    "thirdPartyVendor": "",
+    "adTrackingID": "",
+    "badges": {
+    "imageBased": [],
+    "textBased": [],
+    "textExtendedBadges": []
+    },
+    "lastMileTravelString": "3 kms",
+    "hasSurge": false,
+    "aggregatedDiscountInfoV3": {
+    "header": "15% OFF",
+    "subHeader": "ABOVE ₹1000",
+    "discountTag": "FLAT DEAL",
+    "headerTypeV2": 0
+    },
+    "sla": {
+    "restaurantId": "18800",
+    "deliveryTime": 23,
+    "minDeliveryTime": 23,
+    "maxDeliveryTime": 23,
+    "lastMileTravel": 3,
+    "lastMileDistance": 0,
+    "serviceability": "SERVICEABLE",
+    "rainMode": "NONE",
+    "longDistance": "NOT_LONG_DISTANCE",
+    "preferentialService": false,
+    "iconType": "EMPTY"
+    },
+    "promoted": false,
+    "avgRating": "4.3",
+    "totalRatings": 5000,
+    "new": false
+    },
+    "subtype": "basic"
+    },
+    {
+    "type": "restaurant",
+    "data": {
+    "type": "F",
+    "id": "355192",
+    "name": "R K Kitchen",
+    "uuid": "574d073f-3f2d-4b62-b94e-f04bb1a4846f",
+    "city": "6",
+    "area": "Aundh",
+    "totalRatingsString": "Too Few Ratings",
+    "cloudinaryImageId": "p04gzbsznyjffr3aem4t",
+    "cuisines": [
+    "Beverages",
+    "Snacks"
+    ],
+    "tags": [],
+    "costForTwo": 25000,
+    "costForTwoString": "₹250 FOR TWO",
+    "deliveryTime": 30,
+    "minDeliveryTime": 30,
+    "maxDeliveryTime": 30,
+    "slaString": "30 MINS",
+    "lastMileTravel": 3,
+    "slugs": {
+    "restaurant": "r.k.kitchen-aundh-aundh-2",
+    "city": "pune"
+    },
+    "cityState": "6",
+    "address": "R.K.KITCHEN Aundh, near mangesh arts studio, Ward No. 8, Aundh Gaon, auny, Pune, Maharashtra, India",
+    "locality": "",
+    "parentId": 163695,
+    "unserviceable": false,
+    "veg": false,
+    "select": false,
+    "favorite": false,
+    "tradeCampaignHeaders": [],
+    "chain": [],
+    "feeDetails": {
+    "fees": [
+    {
+    "name": "distance",
+    "fee": 3700,
+    "message": ""
+    },
+    {
+    "name": "time",
+    "fee": 0,
+    "message": ""
+    },
+    {
+    "name": "special",
+    "fee": 0,
+    "message": ""
+    }
+    ],
+    "totalFees": 3700,
+    "message": "",
+    "title": "Delivery Charge",
+    "amount": "3700",
+    "icon": ""
+    },
+    "availability": {
+    "opened": true,
+    "nextOpenMessage": "",
+    "nextCloseMessage": ""
+    },
+    "longDistanceEnabled": 0,
+    "rainMode": "NONE",
+    "thirdPartyAddress": false,
+    "thirdPartyVendor": "",
+    "adTrackingID": "",
+    "badges": {
+    "imageBased": [],
+    "textBased": [],
+    "textExtendedBadges": []
+    },
+    "lastMileTravelString": "3 kms",
+    "hasSurge": false,
+    "sla": {
+    "restaurantId": "355192",
+    "deliveryTime": 30,
+    "minDeliveryTime": 30,
+    "maxDeliveryTime": 30,
+    "lastMileTravel": 3,
+    "lastMileDistance": 0,
+    "serviceability": "SERVICEABLE",
+    "rainMode": "NONE",
+    "longDistance": "NOT_LONG_DISTANCE",
+    "preferentialService": false,
+    "iconType": "EMPTY"
+    },
+    "promoted": false,
+    "avgRating": "--",
+    "totalRatings": 0,
+    "new": false
+    },
+    "subtype": "basic"
+    },
+    {
+    "type": "restaurant",
+    "data": {
+    "type": "F",
+    "id": "352269",
+    "name": "Morning Delight",
+    "uuid": "0e154c54-ba18-4039-830d-df181627b4ba",
+    "city": "6",
+    "area": "Balewadi",
+    "totalRatingsString": "1000+ ratings",
+    "cloudinaryImageId": "qnfvw2vvn0qdkiwbbsgo",
+    "cuisines": [
+    "South Indian"
+    ],
+    "tags": [],
+    "costForTwo": 10000,
+    "costForTwoString": "₹100 FOR TWO",
+    "deliveryTime": 36,
+    "minDeliveryTime": 36,
+    "maxDeliveryTime": 36,
+    "slaString": "36 MINS",
+    "lastMileTravel": 7.699999809265137,
+    "slugs": {
+    "restaurant": "morning-delight-baner-baner",
+    "city": "pune"
+    },
+    "cityState": "6",
+    "address": "Shivneri Park, Balewadi High Street, Balewadi., Baner, Pune, Maharashtra, India",
+    "locality": "Shivneri Park",
+    "parentId": 139237,
+    "unserviceable": false,
+    "veg": false,
+    "select": false,
+    "favorite": false,
+    "tradeCampaignHeaders": [],
+    "ribbon": [
+    {
+    "type": "PROMOTED"
+    }
+    ],
+    "chain": [],
+    "feeDetails": {
+    "fees": [
+    {
+    "name": "distance",
+    "fee": 6100,
+    "message": ""
+    },
+    {
+    "name": "time",
+    "fee": 0,
+    "message": ""
+    },
+    {
+    "name": "special",
+    "fee": 0,
+    "message": ""
+    }
+    ],
+    "totalFees": 6100,
+    "message": "",
+    "title": "Delivery Charge",
+    "amount": "6100",
+    "icon": ""
+    },
+    "availability": {
+    "opened": true,
+    "nextOpenMessage": "",
+    "nextCloseMessage": ""
+    },
+    "longDistanceEnabled": 0,
+    "rainMode": "NONE",
+    "thirdPartyAddress": false,
+    "thirdPartyVendor": "",
+    "adTrackingID": "cid=6990294~p=10~eid=00000188-d1ce-b49e-14f7-82d2005a0a74",
+    "badges": {
+    "imageBased": [],
+    "textBased": [],
+    "textExtendedBadges": []
+    },
+    "lastMileTravelString": "7.6 kms",
     "hasSurge": false,
     "aggregatedDiscountInfoV3": {
     "header": "10% OFF",
@@ -835,11 +1035,522 @@ export const RestList = [
     "headerTypeV2": 0
     },
     "sla": {
-    "restaurantId": "25833",
-    "deliveryTime": 39,
-    "minDeliveryTime": 39,
-    "maxDeliveryTime": 39,
-    "lastMileTravel": 0.699999988079071,
+    "restaurantId": "352269",
+    "deliveryTime": 36,
+    "minDeliveryTime": 36,
+    "maxDeliveryTime": 36,
+    "lastMileTravel": 7.699999809265137,
+    "lastMileDistance": 0,
+    "serviceability": "SERVICEABLE",
+    "rainMode": "NONE",
+    "longDistance": "NOT_LONG_DISTANCE",
+    "preferentialService": false,
+    "iconType": "EMPTY"
+    },
+    "promoted": true,
+    "avgRating": "4.4",
+    "totalRatings": 1000,
+    "new": false
+    },
+    "subtype": "basic"
+    },
+    {
+    "type": "restaurant",
+    "data": {
+    "type": "F",
+    "id": "394745",
+    "name": "Kaka Halwai Sweets and Namkeen",
+    "uuid": "2bd6ba6c-5248-413d-baf9-870f4435ac61",
+    "city": "6",
+    "area": "Aundh",
+    "totalRatingsString": "1000+ ratings",
+    "cloudinaryImageId": "bcr4bquidt8ldwotxgpa",
+    "cuisines": [
+    "Sweets",
+    "Snacks"
+    ],
+    "tags": [],
+    "costForTwo": 35000,
+    "costForTwoString": "₹350 FOR TWO",
+    "deliveryTime": 20,
+    "minDeliveryTime": 20,
+    "maxDeliveryTime": 20,
+    "slaString": "20 MINS",
+    "lastMileTravel": 3,
+    "slugs": {
+    "restaurant": "kaka-halwai-sweets-and-namkeen-aundh-aundh",
+    "city": "pune"
+    },
+    "cityState": "6",
+    "address": "S no 157, SHOP NO A1,ABJA PAVILION, D P ROAD, AUNDH PUNE 411007",
+    "locality": "D P Road",
+    "parentId": 248372,
+    "unserviceable": false,
+    "veg": false,
+    "select": false,
+    "favorite": false,
+    "tradeCampaignHeaders": [],
+    "chain": [],
+    "feeDetails": {
+    "fees": [
+    {
+    "name": "distance",
+    "fee": 3700,
+    "message": ""
+    },
+    {
+    "name": "time",
+    "fee": 0,
+    "message": ""
+    },
+    {
+    "name": "special",
+    "fee": 0,
+    "message": ""
+    }
+    ],
+    "totalFees": 3700,
+    "message": "",
+    "title": "Delivery Charge",
+    "amount": "3700",
+    "icon": ""
+    },
+    "availability": {
+    "opened": true,
+    "nextOpenMessage": "",
+    "nextCloseMessage": ""
+    },
+    "longDistanceEnabled": 0,
+    "rainMode": "NONE",
+    "thirdPartyAddress": false,
+    "thirdPartyVendor": "",
+    "adTrackingID": "",
+    "badges": {
+    "imageBased": [],
+    "textBased": [],
+    "textExtendedBadges": []
+    },
+    "lastMileTravelString": "3 kms",
+    "hasSurge": false,
+    "sla": {
+    "restaurantId": "394745",
+    "deliveryTime": 20,
+    "minDeliveryTime": 20,
+    "maxDeliveryTime": 20,
+    "lastMileTravel": 3,
+    "lastMileDistance": 0,
+    "serviceability": "SERVICEABLE",
+    "rainMode": "NONE",
+    "longDistance": "NOT_LONG_DISTANCE",
+    "preferentialService": false,
+    "iconType": "EMPTY"
+    },
+    "promoted": false,
+    "avgRating": "4.4",
+    "totalRatings": 1000,
+    "new": false
+    },
+    "subtype": "basic"
+    },
+    {
+    "type": "restaurant",
+    "data": {
+    "type": "F",
+    "id": "725380",
+    "name": "Buenos Kaffe",
+    "uuid": "50dfc615-fcc8-4ea4-b22a-ba037db26e03",
+    "city": "6",
+    "area": "Aundh",
+    "totalRatingsString": "Too Few Ratings",
+    "cloudinaryImageId": "414ed51cb369d06a40abe77651eb1acb",
+    "cuisines": [
+    "North Indian",
+    "Pizzas",
+    "Fast Food"
+    ],
+    "tags": [],
+    "costForTwo": 40000,
+    "costForTwoString": "₹400 FOR TWO",
+    "deliveryTime": 24,
+    "minDeliveryTime": 24,
+    "maxDeliveryTime": 24,
+    "slaString": "24 MINS",
+    "lastMileTravel": 2.5,
+    "slugs": {
+    "restaurant": "buenos-kaffe-aundh-aundh",
+    "city": "pune"
+    },
+    "cityState": "6",
+    "address": "Chondhe Patil Nagar Rd, near ROHAN NILAY SOCIETY, Rohan Nilay, Aundh, Pune, Maharashtra 411007, India",
+    "locality": "Chondhe Patil Nagar Rd",
+    "parentId": 431600,
+    "unserviceable": false,
+    "veg": false,
+    "select": false,
+    "favorite": false,
+    "tradeCampaignHeaders": [],
+    "chain": [],
+    "feeDetails": {
+    "fees": [
+    {
+    "name": "distance",
+    "fee": 3100,
+    "message": ""
+    },
+    {
+    "name": "time",
+    "fee": 0,
+    "message": ""
+    },
+    {
+    "name": "special",
+    "fee": 0,
+    "message": ""
+    }
+    ],
+    "totalFees": 3100,
+    "message": "",
+    "title": "Delivery Charge",
+    "amount": "3100",
+    "icon": ""
+    },
+    "availability": {
+    "opened": true,
+    "nextOpenMessage": "",
+    "nextCloseMessage": ""
+    },
+    "longDistanceEnabled": 0,
+    "rainMode": "NONE",
+    "thirdPartyAddress": false,
+    "thirdPartyVendor": "",
+    "adTrackingID": "",
+    "badges": {
+    "imageBased": [],
+    "textBased": [],
+    "textExtendedBadges": []
+    },
+    "lastMileTravelString": "2.5 kms",
+    "hasSurge": false,
+    "sla": {
+    "restaurantId": "725380",
+    "deliveryTime": 24,
+    "minDeliveryTime": 24,
+    "maxDeliveryTime": 24,
+    "lastMileTravel": 2.5,
+    "lastMileDistance": 0,
+    "serviceability": "SERVICEABLE",
+    "rainMode": "NONE",
+    "longDistance": "NOT_LONG_DISTANCE",
+    "preferentialService": false,
+    "iconType": "EMPTY"
+    },
+    "promoted": false,
+    "avgRating": "--",
+    "totalRatings": 0,
+    "new": true
+    },
+    "subtype": "basic"
+    },
+    {
+    "type": "restaurant",
+    "data": {
+    "type": "F",
+    "id": "24648",
+    "name": "Mr & Mrs Idly",
+    "uuid": "77b33825-9ebd-470f-addf-52839d1b0dab",
+    "city": "6",
+    "area": "Pimple Saudagar",
+    "totalRatingsString": "10000+ ratings",
+    "cloudinaryImageId": "fe9af50642a2c6960377e9ce20766c5d",
+    "cuisines": [
+    "South Indian",
+    "Chinese"
+    ],
+    "tags": [],
+    "costForTwo": 19000,
+    "costForTwoString": "₹190 FOR TWO",
+    "deliveryTime": 34,
+    "minDeliveryTime": 34,
+    "maxDeliveryTime": 34,
+    "slaString": "34 MINS",
+    "lastMileTravel": 8.899999618530273,
+    "slugs": {
+    "restaurant": "mr-and-mrs-idly-pimple-saudagar-pimple-saudagar",
+    "city": "pune"
+    },
+    "cityState": "6",
+    "address": "10, Rose Icon, Near Vijaya Bank, Pimple Saudagar, Pune",
+    "locality": "Pimple Saudagar",
+    "parentId": 388168,
+    "unserviceable": false,
+    "veg": false,
+    "select": false,
+    "favorite": false,
+    "tradeCampaignHeaders": [],
+    "ribbon": [
+    {
+    "type": "PROMOTED"
+    }
+    ],
+    "chain": [],
+    "feeDetails": {
+    "fees": [
+    {
+    "name": "distance",
+    "fee": 7100,
+    "message": ""
+    },
+    {
+    "name": "time",
+    "fee": 0,
+    "message": ""
+    },
+    {
+    "name": "special",
+    "fee": 0,
+    "message": ""
+    }
+    ],
+    "totalFees": 7100,
+    "message": "",
+    "title": "Delivery Charge",
+    "amount": "7100",
+    "icon": ""
+    },
+    "availability": {
+    "opened": true,
+    "nextOpenMessage": "",
+    "nextCloseMessage": ""
+    },
+    "longDistanceEnabled": 0,
+    "rainMode": "NONE",
+    "thirdPartyAddress": false,
+    "thirdPartyVendor": "",
+    "adTrackingID": "cid=6997541~p=13~eid=00000188-d1ce-b49e-14f7-82d3005a0d69",
+    "badges": {
+    "imageBased": [],
+    "textBased": [],
+    "textExtendedBadges": []
+    },
+    "lastMileTravelString": "8.8 kms",
+    "hasSurge": false,
+    "aggregatedDiscountInfoV3": {
+    "header": "10% OFF",
+    "subHeader": "UPTO ₹40",
+    "discountTag": "",
+    "headerTypeV2": 0
+    },
+    "sla": {
+    "restaurantId": "24648",
+    "deliveryTime": 34,
+    "minDeliveryTime": 34,
+    "maxDeliveryTime": 34,
+    "lastMileTravel": 8.899999618530273,
+    "lastMileDistance": 0,
+    "serviceability": "SERVICEABLE",
+    "rainMode": "NONE",
+    "longDistance": "NOT_LONG_DISTANCE",
+    "preferentialService": false,
+    "iconType": "EMPTY"
+    },
+    "promoted": true,
+    "avgRating": "4.1",
+    "totalRatings": 10000,
+    "new": false
+    },
+    "subtype": "basic"
+    },
+    {
+    "type": "restaurant",
+    "data": {
+    "type": "F",
+    "id": "718613",
+    "name": "Atithi Veg",
+    "uuid": "83acc4f5-2c99-4311-892a-d63910a32dee",
+    "city": "6",
+    "area": "Aundh",
+    "totalRatingsString": "Too Few Ratings",
+    "cloudinaryImageId": "61ffd676bebe5d3d63bf63e89cb5163f",
+    "cuisines": [
+    "North Indian",
+    "Snacks",
+    "Chinese",
+    "Indian"
+    ],
+    "tags": [],
+    "costForTwo": 40000,
+    "costForTwoString": "₹400 FOR TWO",
+    "deliveryTime": 27,
+    "minDeliveryTime": 27,
+    "maxDeliveryTime": 27,
+    "slaString": "27 MINS",
+    "lastMileTravel": 3,
+    "slugs": {
+    "restaurant": "atithi-veg-aundh-aundh",
+    "city": "pune"
+    },
+    "cityState": "6",
+    "address": "Sr.No.2, Hissa No. 2B, 3A & 3B, Opposite PMRDA, Bremen Chowk, Aundh, Pune 411007",
+    "locality": "Bremen Chowk",
+    "parentId": 37603,
+    "unserviceable": false,
+    "veg": false,
+    "select": false,
+    "favorite": false,
+    "tradeCampaignHeaders": [],
+    "chain": [],
+    "feeDetails": {
+    "fees": [
+    {
+    "name": "distance",
+    "fee": 3700,
+    "message": ""
+    },
+    {
+    "name": "time",
+    "fee": 0,
+    "message": ""
+    },
+    {
+    "name": "special",
+    "fee": 0,
+    "message": ""
+    }
+    ],
+    "totalFees": 3700,
+    "message": "",
+    "title": "Delivery Charge",
+    "amount": "3700",
+    "icon": ""
+    },
+    "availability": {
+    "opened": true,
+    "nextOpenMessage": "",
+    "nextCloseMessage": ""
+    },
+    "longDistanceEnabled": 0,
+    "rainMode": "NONE",
+    "thirdPartyAddress": false,
+    "thirdPartyVendor": "",
+    "adTrackingID": "",
+    "badges": {
+    "imageBased": [],
+    "textBased": [],
+    "textExtendedBadges": []
+    },
+    "lastMileTravelString": "3 kms",
+    "hasSurge": false,
+    "sla": {
+    "restaurantId": "718613",
+    "deliveryTime": 27,
+    "minDeliveryTime": 27,
+    "maxDeliveryTime": 27,
+    "lastMileTravel": 3,
+    "lastMileDistance": 0,
+    "serviceability": "SERVICEABLE",
+    "rainMode": "NONE",
+    "longDistance": "NOT_LONG_DISTANCE",
+    "preferentialService": false,
+    "iconType": "EMPTY"
+    },
+    "promoted": false,
+    "avgRating": "--",
+    "totalRatings": 0,
+    "new": true
+    },
+    "subtype": "basic"
+    },
+    {
+    "type": "restaurant",
+    "data": {
+    "type": "F",
+    "id": "310893",
+    "name": "The Baker's Dozen",
+    "uuid": "70634811-49b7-460d-b504-485947fead84",
+    "city": "6",
+    "area": "Sangvi (Aundh)",
+    "totalRatingsString": "1000+ ratings",
+    "cloudinaryImageId": "4564707d4f5a8a7feff0188b183a7916",
+    "cuisines": [
+    "Bakery",
+    "Snacks",
+    "Desserts"
+    ],
+    "tags": [],
+    "costForTwo": 30000,
+    "costForTwoString": "₹300 FOR TWO",
+    "deliveryTime": 27,
+    "minDeliveryTime": 27,
+    "maxDeliveryTime": 27,
+    "slaString": "27 MINS",
+    "lastMileTravel": 3,
+    "slugs": {
+    "restaurant": "the-baker's-dozen-aundh-aundh",
+    "city": "pune"
+    },
+    "cityState": "6",
+    "address": "Ground floor,Survey no 12,Haridra building near Nursingh high school, Shitole nagar,Sangvi Pune, 413102",
+    "locality": "Sangvi (Aundh)",
+    "parentId": 946,
+    "unserviceable": false,
+    "veg": false,
+    "select": false,
+    "favorite": false,
+    "tradeCampaignHeaders": [],
+    "chain": [],
+    "feeDetails": {
+    "fees": [
+    {
+    "name": "distance",
+    "fee": 3700,
+    "message": ""
+    },
+    {
+    "name": "time",
+    "fee": 0,
+    "message": ""
+    },
+    {
+    "name": "special",
+    "fee": 0,
+    "message": ""
+    }
+    ],
+    "totalFees": 3700,
+    "message": "",
+    "title": "Delivery Charge",
+    "amount": "3700",
+    "icon": ""
+    },
+    "availability": {
+    "opened": true,
+    "nextOpenMessage": "",
+    "nextCloseMessage": ""
+    },
+    "longDistanceEnabled": 0,
+    "rainMode": "NONE",
+    "thirdPartyAddress": false,
+    "thirdPartyVendor": "",
+    "adTrackingID": "",
+    "badges": {
+    "imageBased": [],
+    "textBased": [],
+    "textExtendedBadges": []
+    },
+    "lastMileTravelString": "3 kms",
+    "hasSurge": false,
+    "aggregatedDiscountInfoV3": {
+    "header": "₹75 OFF",
+    "subHeader": "ABOVE ₹299",
+    "discountTag": "FLAT DEAL",
+    "headerTypeV2": 0
+    },
+    "sla": {
+    "restaurantId": "310893",
+    "deliveryTime": 27,
+    "minDeliveryTime": 27,
+    "maxDeliveryTime": 27,
+    "lastMileTravel": 3,
     "lastMileDistance": 0,
     "serviceability": "SERVICEABLE",
     "rainMode": "NONE",

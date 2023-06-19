@@ -6,10 +6,11 @@ export const ShimmerLoad =()=>{
     console.log(err);
 
     return (
-    <div class="container text-center">
+    <div className="container text-center">
         <h1>{err?.status}</h1>
         <h1>Route {err?.statusText}</h1>
-        <div class="spinner-border" role="status"></div>
+        <h1>Durgesh is working on it</h1>
+        <div className="spinner-border" role="status"></div>
     </div>
     );
 }

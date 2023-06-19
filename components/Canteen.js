@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
-import {RestList} from "../constants.js";
-import { restImageURL } from "../constants.js";
-import Shhimmer from "./Shimmer.js";
+import {RestList, swiggyAPI , restImageURL} from "../constants.js";
+// import Shhimmer from "./Shimmer.js";
 
 const Card = ({cloudinaryImageId,name,cuisines,city}) =>{
     return (
@@ -35,14 +34,14 @@ const Canteen = () =>{
     },[]);
 
     async function getSwiggyAPI(){
-        const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=18.5602455&lng=73.8338196&page_type=DESKTOP_WEB_LISTING");
+        const data = await fetch(swiggyAPI);
         const dataJSON = await data.json();
         setRestList(dataJSON?.data?.cards[2]?.data?.data?.cards);
         setFilteredRestList(dataJSON?.data?.cards[2]?.data?.data?.cards);
     }
 
 
-    return (Restaurants?.length === 0) ? <Shhimmer /> : (
+    return (
     <div className="container">
 
         <div className="search">

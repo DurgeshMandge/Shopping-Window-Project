@@ -1,5 +1,4 @@
-import { landingPageData } from "../constants";
-import { arrowURL } from "../constants";
+import { landingPageData , arrowURL } from "../constants";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
