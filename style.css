@@ -4,7 +4,7 @@
   } */
   
   .landImg{
-    width: 70px;
+    width: 150px;
   }
 
   .landImgComp{
@@ -107,13 +107,22 @@
         grid-template-columns: repeat(1, 1fr); /* Display four columns */
         grid-gap: 20px;
       }
+    .box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
   
   @media (min-width: 450px) and (max-width: 900px) {
     .card-list {
       grid-template-columns: repeat(2, 1fr); /* Display two columns */
     }
-  
+    .box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
   
   @media (min-width: 900px){
@@ -122,4 +131,71 @@
     }
 }
   
+/* ------------ */
+.bd1{
+  background: linear-gradient(#0042AA, rgb(100,156,210));
+  color: white;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  padding: 0%;
+}
 
+.bd2{
+  background: linear-gradient(#ffffff,#5b5de7) ;
+  color: white;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+.content{
+  height: 35rem;
+  margin-top: 5%;
+}
+.box-in {
+  display: block;
+  margin: auto;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box2{
+  justify-content: center;
+  align-items: center;
+}
+
+.but{
+  margin: 1.5%;
+}
+.para{
+  display: inline;
+  color: white;
+}
+.ic2{
+  height: 7rem;
+  margin: 5%;
+}
+.di{
+  margin-top: 3%;
+}
+.profile{
+  width : 20% ;
+  margin: 0 auto 0 auto;
+  border-style: solid;
+  border-radius: 50%;
+}
+.name{
+  margin: 15px;
+}
+.butons{
+  margin: 1% 25% 1% 25%;
+}
+.ic{
+  margin: 0 5px;
+  width: 30px;
+  height: 30px;
+}
+.fo{
+  color:black;
+}
