@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import {RestList, swiggyAPI , restImageURL} from "../constants.js";
+import { useState } from "react";
+import {RestList, restImageURL} from "../constants.js";
 // import Shhimmer from "./Shimmer.js";
 
 const Card = ({cloudinaryImageId,name,cuisines,city}) =>{
@@ -22,24 +22,12 @@ const Card = ({cloudinaryImageId,name,cuisines,city}) =>{
 const Canteen = () =>{
 
     function filterData(Restaurent,searchText){
-        return (Restaurent.filter((rest)=>rest.data.name.toLowerCase().includes(searchText.toLowerCase())));
+        return (Restaurent.filter((rest)=>rest?.data?.name?.toLowerCase().includes(searchText.toLowerCase())));
     }
 
     const [searchText,setSearchText]=useState("");
-    const [Restaurants,setRestList]=useState([RestList]);
+    const [Restaurants,setRestList]=useState(RestList);
     const [filteredRestaurants,setFilteredRestList]=useState(RestList);
-
-    useEffect(()=>{
-        getSwiggyAPI()
-    },[]);
-
-    async function getSwiggyAPI(){
-        const data = await fetch(swiggyAPI);
-        const dataJSON = await data.json();
-        setRestList(dataJSON?.data?.cards[2]?.data?.data?.cards);
-        setFilteredRestList(dataJSON?.data?.cards[2]?.data?.data?.cards);
-    }
-
 
     return (
     <div className="container">
