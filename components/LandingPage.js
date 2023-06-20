@@ -22,6 +22,7 @@ const LandingPageComponent = ({name,availability,status})=>{
     );
 }
 
+
 const LandingPage = ()=>{
 
     useEffect(()=>{

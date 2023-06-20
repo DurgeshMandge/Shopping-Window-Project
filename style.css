@@ -2,7 +2,9 @@
     margin: 0 auto;
     padding: 20px;
   } */
-  
+  body{
+    font-family: 'Roboto', sans-serif;
+  }
   .landImg{
     width: 50px;
   }
