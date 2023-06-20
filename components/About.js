@@ -11,7 +11,9 @@ const About = ()=>{
 
       <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
         <div className="accordion-body">
-          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          <strong>Software Developer</strong><br/>
+          <code>Github Publisheries :</code><br/>
+          <code><a href="https://github.com/DurgeshMandge" className="text-decoration-none" target="_blank" title="view repository">https://github.com/DurgeshMandge</a></code>
         </div>
       </div>
     </div>
@@ -19,13 +21,18 @@ const About = ()=>{
     <div className="accordion-item">
       <h2 className="accordion-header">
         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Accordion
+          Professional Experience
         </button>
       </h2>
       
       <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
         <div className="accordion-body">
-          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          <strong>"Is your LinkedIn profile as impressive as your smile?<br/> 
+            Because I'm definitely looking to connect."
+          </strong><br/>
+          <code> &gt;2 Years of Professionalism</code><br/>
+            <a href="https://drive.google.com/file/d/134liK9I6gkouke66pHKhqmFG58ZYx8Gb/view?usp=drivesdk" className="text-decoration-none"><code>ViewCV</code></a>
+          <br/>
         </div>
       </div>
     </div>
@@ -33,13 +40,16 @@ const About = ()=>{
     <div className="accordion-item">
       <h2 className="accordion-header">
         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Accordion Item #3
+          Educational Background
         </button>
       </h2>
       
       <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
         <div className="accordion-body">
-          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          <strong>Bachelors in Science<br/>Computer Science specialized</strong> <br/>
+          <code>North Maharashtra University</code><br/>
+          <code>Pune Educational Board</code>
+
         </div>
       </div>
     </div>
