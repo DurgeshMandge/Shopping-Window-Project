@@ -5,18 +5,20 @@ import { Link } from "react-router-dom";
 const LandingPageComponent = ({name,availability,status})=>{
     const rout="/"+name;
     return (
+    <Link to={rout} className="text-decoration-none">
     <div className="container mt-3 border-dark border rounded p-3">
         <div className="row align-items-center landImgComp">   
             <div className="col-2 ">
                 <img src={arrowURL} placeholder="img.jpg" className="landImg" />
             </div>
             <div className="col-10">
-                <h2 title="click here"><Link to={rout} >{name}</Link></h2>
-                <h4>{availability}</h4>
-                <h6>{status}</h6> 
+                    <h2 title="click here">{name}</h2>
+                    <h4>{availability}</h4>
+                    <h6>{status}</h6> 
             </div>
         </div>
     </div>
+    </Link>
     );
 }
 
