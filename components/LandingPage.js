@@ -6,7 +6,7 @@ const LandingPageComponent = ({name,availability,status})=>{
     const rout="/"+name;
     return (
     <Link to={rout} className="text-decoration-none">
-    <div className="container mt-3 border-dark border rounded p-3">
+    <div className="container mt-3 border-dark border rounded p-1">
         <div className="row align-items-center landImgComp">   
             <div className="col-2 ">
                 <img src={arrowURL} placeholder="img.jpg" className="landImg" />
