@@ -1,4 +1,5 @@
-/* .container {
+  
+        /* .container {
     margin: 0 auto;
     padding: 20px;
   } */
@@ -6,12 +7,12 @@
     font-family: 'Roboto', sans-serif;
   }
   .link-black{
-    color: black;
+    color: rgb(211, 31, 142);
   }
 
   .link-black:hover {
     /* opacity: 0.8; */
-    color: rgb(201, 0, 100);
+    color: rgb(85, 14, 44);
     font-weight: bold;
   }
   .landImg{

@@ -4,6 +4,8 @@ export const restImageURL = "https://res.cloudinary.com/swiggy/image/upload/fl_l
 
 export const arrowURL = "https://tse4.mm.bing.net/th?id=OIP.0Ekcj_rNNcUlKRBe5NLz5AHaHa&pid=Api&P=0&h=180";
 
+export const arrowURL2 = "https://tse4.mm.bing.net/th?id=OIP.P9itgPznyLySYqE_JBhuQwHaFi&pid=Api&P=0&h=180";
+
 export const swiggyAPI = "https://www.swiggy.com/dapi/restaurants/list/v5?lat=18.5602455&lng=73.8338196&page_type=DESKTOP_WEB_LISTING";
 
 export const RestList = [
