@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const LandingPageComponent = ({name,availability,status})=>{
     const rout="/"+name;
     return (
-    <div className="container border-dark">
+    <div className="container border-dark border rounded p-3">
         <div className="row align-items-center landImgComp">   
             <div className="col-2 ">
                 <img src={arrowURL} placeholder="img.jpg" className="landImg" />
