@@ -11,9 +11,9 @@ const Header2 =()=>{
       </a>
 
       <ul className="nav nav-pills ">
-        <li className="nav-item "><Link to="/" className="nav-link navOpt" aria-current="page">Home</Link></li>
-        <li className="nav-item"><Link to="/about" className="nav-link navOpt">About</Link></li>
-        <li className="nav-item"><Link to="/contact" className="nav-link navOpt">Contact</Link></li>
+        <li className="nav-item "><Link to="/" className="nav-link navOpt link-black" aria-current="page">Home</Link></li>
+        <li className="nav-item"><Link to="/about" className="nav-link navOpt link-black">About</Link></li>
+        <li className="nav-item"><Link to="/contact" className="nav-link navOpt link-black">Contact</Link></li>
       </ul>
     </header>
   </div>

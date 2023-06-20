@@ -5,6 +5,15 @@
   body{
     font-family: 'Roboto', sans-serif;
   }
+  .link-black{
+    color: black;
+  }
+
+  .link-black:hover {
+    /* opacity: 0.8; */
+    color: rgb(201, 0, 100);
+    font-weight: bold;
+  }
   .landImg{
     width: 50px;
   }
