@@ -1,6 +1,6 @@
 const About = ()=>{
   return (
-  <div className="accordion container" id="accordionExample">
+  <div className="accordion container mt-3" id="accordionExample">
 
     <div className="accordion-item">
       <h2 className="accordion-header">
