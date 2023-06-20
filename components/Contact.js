@@ -10,7 +10,7 @@ const ContactLayout = ()=>{
                 </div>
             </div>
             <div className="col-lg-9 col-sm-12 box2">
-                <div className="box-in">
+                <div className="box-in mt-3">
                     <h5 className="card-title">Durgesh Mandge</h5>
                     <p className="card-text">
                         durgeshdmd4602@gmail.com
