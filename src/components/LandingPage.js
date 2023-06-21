@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const LandingPageComponent = ({name,availability,status})=>{
     const rout="/"+name;
     return (
-    <div className="compoList">
+    <div className="container compoList">
         <Link to={rout} className="text-decoration-none link-black link-land ">
         <div className=" border-dark border rounded p-1 link-black">
             <div className="row align-items-center landImgComp">   
