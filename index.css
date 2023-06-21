@@ -9,6 +9,9 @@
   .link-black{
     color: rgb(211, 31, 142);
   }
+  .link-land{
+    display: block;
+  }
 
   .link-black:hover {
     /* opacity: 0.8; */
