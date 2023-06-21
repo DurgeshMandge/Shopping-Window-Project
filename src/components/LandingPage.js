@@ -8,7 +8,7 @@ const LandingPageComponent = ({name,availability,status})=>{
     <Link to={rout} className="container text-decoration-none link-black">
     <div className=" border-dark border rounded p-1 link-black">
         <div className="row align-items-center landImgComp">   
-            <div className="col-2 align-items-center">
+            <div className="col-2 text-center">
                 <img src={arrowURL} placeholder="img.jpg" className="landImg" />
             </div>
             <div className="col-10">
