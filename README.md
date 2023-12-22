@@ -1,3 +1,3 @@
 # Shopping-Window-Project
 *link:
-https://durgeshmandge.github.io/Shopping-Window-Project/
+https://wondrous-fairy-69d377.netlify.app/
