@@ -45,7 +45,7 @@ const CardShimmer = () => {
     );
   };
   
-  const Shimmer = () => {
+  const Shhimmer = () => {
     return (
       <div className="shimmer-container">
         {new Array(20).fill(0).map((element, index) => {
@@ -54,7 +54,7 @@ const CardShimmer = () => {
       </div>
     );
   };
-  export default Shimmer;
+  export default Shhimmer;
 
 // const Shhimmer = ()=>{
 //     return (
