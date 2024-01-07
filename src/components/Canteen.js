@@ -1,6 +1,7 @@
 import { useState } from "react";
 import {RestList, restImageURL} from "../constants.js";
-// import Shhimmer from "./Shimmer.js";
+import Shhimmer from "./Shimmer.js";
+import { Shimmer } from "react-shimmer";
 
 const Card = ({cloudinaryImageId,name,cuisines,city}) =>{
     return (

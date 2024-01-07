@@ -3,7 +3,9 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const LandingPageComponent = ({name,availability,status})=>{
+
     const rout="/"+name;
+
     return (
     <div className="container compoList">
         <Link to={rout} className="text-decoration-none link-black link-land ">
@@ -28,14 +30,34 @@ const LandingPageComponent = ({name,availability,status})=>{
 const LandingPage = ()=>{
 
     useEffect(()=>{
-        getSwiggyAPI()
+        fetchData()
     },[]);
 
-    async function getSwiggyAPI(){
-        const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=18.5602455&lng=73.8338196&page_type=DESKTOP_WEB_LISTING");
-        const dataJSON = await data.json();
-        console.log(dataJSON?.data?.cards[2]?.data?.data?.cards);
-    }
+    // async function getSwiggyAPI(){
+    //     const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=18.5602455&lng=73.8338196&page_type=DESKTOP_WEB_LISTING");
+    //     const dataJSON = await data.json();
+    //     console.log(dataJSON?.data?.cards[2]?.data?.data?.cards);
+    // }
+
+    async function fetchData () {
+        try {
+          const response = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=18.5602455&lng=73.8338196&page_type=DESKTOP_WEB_LISTING");
+          const json = await response.json();
+          
+          // Extract restaurant data from each card
+        //   const restaurants = json.data.cards.map(card => card?.card?.card?.info);
+          const restaurants = json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
+          const restNames = restaurants.map(res=>{
+            return res?.info;
+          })
+      
+          // Update state with the new restaurant data
+        //   setListOfRestraurent(restaurants);
+        console.log(restNames);
+        } catch (error) {
+          console.error("Error fetching data: ", error);
+        }
+      };
 
     return (
     <div className="compoList">
