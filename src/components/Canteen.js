@@ -18,10 +18,10 @@ const Canteen = () =>{
             const response = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=18.5602455&lng=73.8338196&page_type=DESKTOP_WEB_LISTING");
             const json = await response.json();
             
-            const restaurants = json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
+            const restaurants = json?.data?.cards?.card?.card?.gridElements?.infoWithStyle?.info?.action;
 
             const HotelList = restaurants.map(res=>{
-                return res?.info;
+                return res?.text;
             })
       
         setRestList(HotelList);
