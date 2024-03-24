@@ -16,3 +16,8 @@
 
   ![image](https://github.com/DurgeshMandge/Shopping-Window-Project/assets/117802796/5abd3196-e1ab-44b2-aa2d-c45a81dfae2a)
 
+* # Tech Stack :
+  * React.js
+  * Postman
+  * React-Browser-Router
+  * Jest
