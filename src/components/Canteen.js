@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Shhimmer from "./Shimmer.js";
 import Card from "./Card.js";
+import { RestList } from "../constants.js";
         
 const Canteen = () =>{
 
@@ -31,15 +32,16 @@ const Canteen = () =>{
             console.error("Error fetching data: ", error);
         }
     };
+    
 
 
     function filterData(Restaurent,searchText){
         return (Restaurent.filter((rest)=>rest?.name?.toLowerCase().includes(searchText.toLowerCase())));
     }
 
-    if(filteredRestaurants.length===0){
-        return <Shhimmer/>;
-    }
+    // if(filteredRestaurants.length===0){
+    //     return <Shhimmer/>;
+    // }
 
     return (
     <div className="container">
@@ -64,9 +66,17 @@ const Canteen = () =>{
         </div>
         
         <div className="card-list">                              
-            {filteredRestaurants.map((rest)=>{
+            {(filteredRestaurants.length===0) ? (
+                RestList.map((rest)=>{
+                    
+                    return (<Card {...rest?.data}  key={rest?.data?.id}/>);
+                })
+            ):
+            (filteredRestaurants.map((rest)=>{
                 return (<Card {...rest}  key={rest?.data?.id}/>);
-            })}
+            })
+            )
+            }
         </div>  
 
       </div>
