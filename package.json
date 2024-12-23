@@ -10,11 +10,12 @@
   "author": "Durgesh Mandge",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.23.7",
-    "@babel/preset-env": "^7.23.7",
-    "@testing-library/react": "^14.1.2",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@testing-library/react": "^14.3.1",
     "babel-jest": "^29.7.0",
     "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
     "parcel": "^2.9.2",
     "process": "^0.11.10",
     "react": "^18.2.0",
@@ -26,5 +27,5 @@
     "@mui/material": "^5.15.3",
     "react-router-dom": "^6.13.0",
     "react-shimmer": "^3.2.0"
-  }
+  } 
 }
